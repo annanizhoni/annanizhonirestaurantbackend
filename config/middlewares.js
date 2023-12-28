@@ -4,7 +4,6 @@ module.exports = [
   {
     name: 'strapi::cors',
     config: {
-      enabled: true,
       headers: '*', // You can list specific headers you want to allow here
       origin: ['http://localhost:3000', 'http://localhost:1337', 'https://annanizhonirestaurantfrontend-2857f51cd024.herokuapp.com']
     },
@@ -17,7 +16,3 @@ module.exports = [
   'strapi::favicon',
   'strapi::public',
 ];
-
-
-
-
